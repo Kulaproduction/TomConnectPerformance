@@ -664,7 +664,7 @@ function calc(){
   riskBadgeEl.className = `risk-badge ${risk.color}`;
 
   aiSummaryEl.textContent = summary;
-
+}
 select.addEventListener("change", e => {
   currentUser = USERS[Number(e.target.value)];
   calc();
